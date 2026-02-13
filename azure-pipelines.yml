@@ -25,5 +25,5 @@ stages:
         inlineScript: |
           az deployment group create `
             --resource-group "rg-ae-test" `
-            --template-file "update-acr-pe.bicep" `
+            --template-file "new.bicep" `
             --parameters registryName="myacrtestsit" vnetName="vnet-ae-test" subnetName="snet-ae-test"
